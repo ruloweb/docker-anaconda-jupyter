@@ -13,4 +13,4 @@ After cloning the repository you need to update the jupyter notebook password in
 docker-compose up -d
 ```
 
-By default, it will try to use the port 8888. You can change it in the file **Dockerfile**.
+By default, it will try to use the port 8888. You can change it in the **docker-compose.yml** file.
