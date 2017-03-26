@@ -1,0 +1,8 @@
+server:
+  container_name: jupyter
+  build: .
+  env_file: .env
+  ports:
+    - "8888:8888"
+  volumes:
+    - ./notebooks:/opt/notebooks
