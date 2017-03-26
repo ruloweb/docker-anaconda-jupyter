@@ -6,3 +6,4 @@ server:
     - "8888:8888"
   volumes:
     - ./notebooks:/opt/notebooks
+  restart: always
