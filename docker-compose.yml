@@ -3,7 +3,7 @@ server:
   build: .
   env_file: .env
   ports:
-    - "8888:8888"
+    - "80:8888"
   volumes:
     - ./notebooks:/opt/notebooks
   restart: always
