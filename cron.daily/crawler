@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd /opt/notebooks/Desafio\ 4/crawler
+scrapy crawl projects -o datasets/projects-$(date +"%FT%H%M%S").csv -t csv
