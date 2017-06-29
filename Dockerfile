@@ -12,7 +12,7 @@ RUN apt-get install cron -y
 
 ADD start.sh /opt/conda/bin/
 
-COPY cron.daily/* /etc/cron.daily
+COPY cron/* /var/spool/cron/crontabs
 
 CMD ["/opt/conda/bin/start.sh"]
 
